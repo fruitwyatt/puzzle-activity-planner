@@ -44,18 +44,18 @@ https://jigsawmake.com/?shape=heart&tilesX=10&tilesY=8
 
 ## Installation
 
-### Option 1: Clone into your Claude Code skills directory
+### Option 1: Clone directly
 
 ```bash
 git clone https://github.com/fruitwyatt/puzzle-activity-planner.git ~/.claude/skills/puzzle-activity-planner
 ```
 
-### Option 2: Copy the skill file manually
+### Option 2: Download the skill file
 
 ```bash
 mkdir -p ~/.claude/skills/puzzle-activity-planner
 curl -o ~/.claude/skills/puzzle-activity-planner/SKILL.md \
-  https://raw.githubusercontent.com/fruitwyatt/puzzle-activity-planner/main/.claude/skills/puzzle-activity-planner/SKILL.md
+  https://raw.githubusercontent.com/fruitwyatt/puzzle-activity-planner/main/SKILL.md
 ```
 
 ## Usage
