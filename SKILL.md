@@ -2,7 +2,6 @@
 name: puzzle-activity-planner
 description: Plan engaging puzzle-based activities for classrooms, parties, team-building, and events. Generates structured activity plans with printable puzzle recommendations, timing, difficulty levels, and direct links to free puzzle generators. Use when planning educational activities, party games, team events, or any occasion that could benefit from puzzles.
 user-invocable: true
-allowed-tools: Read, Bash, WebSearch, WebFetch
 ---
 
 # Puzzle Activity Planner
@@ -126,12 +125,15 @@ https://jigsawmake.com/word-search-maker?title=Solar%20System%20Words&words=MERC
 
 ### Crossword
 ```
-https://jigsawmake.com/crossword-puzzle-maker?title=History%20Review&difficulty=hard
+https://jigsawmake.com/crossword-puzzle-maker?title=Ocean%20Animals&difficulty=medium&clues=DOLPHIN:Smart%20marine%20mammal|OCTOPUS:Has%20eight%20arms|SEAHORSE:Tiny%20fish%20that%20swims%20upright
 ```
 | Param | Type | Values | Default |
 |-------|------|--------|---------|
 | `title` | string | URL-encoded text | "Crossword Puzzle" |
 | `difficulty` | string | easy, medium, hard | medium |
+| `clues` | string | `WORD:clue` pairs separated by `\|`, URL-encoded | default clues |
+
+**Clues format**: `WORD:clue text|WORD:clue text` — pipe `|` separates pairs, colon `:` separates word from clue. You MUST generate the word-clue pairs yourself (you are the AI!) and embed them directly in the URL.
 
 ### Sudoku
 ```

@@ -32,6 +32,9 @@ Generator links include pre-filled parameters so users get ready-to-use puzzles 
 # Word Search with solar system theme
 https://jigsawmake.com/word-search-maker?title=Solar%20System&words=MERCURY,VENUS,EARTH,MARS,JUPITER&gridSize=12
 
+# Crossword with AI-generated clues baked into the URL
+https://jigsawmake.com/crossword-puzzle-maker?title=Ocean%20Animals&clues=DOLPHIN:Smart%20marine%20mammal|OCTOPUS:Has%20eight%20arms
+
 # Easy Sudoku, 3 pages, 6 puzzles per page
 https://jigsawmake.com/sudoku-puzzle-maker?difficulty=easy&pageCount=3&puzzlesPerPage=6
 
