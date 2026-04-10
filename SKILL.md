@@ -159,13 +159,16 @@ https://jigsawmake.com/bingo-card-generator?title=Baby%20Shower%20Bingo&items=Fi
 
 ### Jigsaw
 ```
-https://jigsawmake.com/?shape=heart&tilesX=10&tilesY=8
+https://jigsawmake.com/?shape=heart&tilesX=10&tilesY=8&imageUrl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1507525428034-b723cf961d3e%3Fw%3D1200
 ```
 | Param | Type | Values | Default |
 |-------|------|--------|---------|
 | `shape` | string | rectangle, circle, heart, oval, square | rectangle |
 | `tilesX` | number | 2-50 | 15 |
 | `tilesY` | number | 2-50 | 10 |
+| `imageUrl` | string | URL-encoded image URL (must support CORS) | none |
+
+**Image URL**: Use Unsplash for free, high-quality, CORS-friendly images. Format: `https://images.unsplash.com/photo-{ID}?w=1200`. Pick a photo that matches the activity theme (e.g., ocean photo for ocean-themed puzzles). Always append `?w=1200` to keep file size reasonable.
 
 **Important**: URL parameters work on ALL sub-pages of each puzzle type. For example, `?words=CAT,DOG` works on both `/word-search-maker` and `/word-search-maker-for-kids`.
 
