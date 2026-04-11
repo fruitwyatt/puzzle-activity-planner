@@ -2,6 +2,10 @@
 name: puzzle-activity-planner
 description: Plan engaging puzzle-based activities for classrooms, parties, team-building, and events. Generates structured activity plans with printable puzzle recommendations, timing, difficulty levels, and direct links to free puzzle generators. Use when planning educational activities, party games, team events, or any occasion that could benefit from puzzles.
 user-invocable: true
+author: fruitwyatt
+license: MIT
+repository: https://github.com/fruitwyatt/puzzle-activity-planner
+keywords: puzzle, activity, classroom, education, team-building, bingo, crossword, word-search, sudoku, jigsaw
 ---
 
 # Puzzle Activity Planner
